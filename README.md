@@ -1,6 +1,4 @@
-<center>
-    <h1>VIMc</h1>
-</center>
+<h1 align="center">VIMc</h1>
 
 VIMc is a very basic VimSript "interpreter" for running `.vim` files in the terminal. It is essentially just a wrapper around Vim that auto runs your `.vim` script in a headless mode then quits
 
