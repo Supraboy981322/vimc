@@ -28,8 +28,7 @@ VIMc is a very basic VimSript "interpreter" for running `.vim` files in the term
     ```
 
 - Move binary to path (eg: `/usr/bin`)
-    
-    (may require `su`)
+    <sub>may require `su`<sub>
     ```sh
     mv vimc /usr/bin/vimc
     ```
