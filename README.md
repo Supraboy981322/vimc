@@ -2,7 +2,7 @@
 
 VIMc is a very basic VimSript "interpreter" for running `.vim` files in the terminal. It is essentially just a wrapper around Vim that auto runs your `.vim` script in a headless mode then quits
 
-<sub>What, did you expect me to write something which didn't need to be written? If something more than adequate can be written as a simple wrapper, why do any more?</sub>
+<sub>Did you expect me to write something which didn't need to be written? If something more than adequate can be written as a simple wrapper, why do any more?</sub>
 
 ## Usage
 - help
