@@ -16,6 +16,13 @@ VIMc is a very basic VimSript "interpreter" for running `.vim` files in the term
     ```sh
     vimc /foo/bar/baz.vim
     ```
+- Hashbang
+    <p>Add this hashbang to the top of your VimScript</p>
+    <p>(replace `/usr/bin/vimc` with your VIMc path)</p>
+
+    ```
+    #!/usr/bin/vimc
+    ```
 
 
 ## Dependencies
