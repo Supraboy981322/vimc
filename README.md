@@ -4,6 +4,7 @@ VIMc is a very basic VimSript "interpreter" for running `.vim` files in the term
 
 <sub>Did you expect me to write something which didn't need to be written? If something more than adequate can be written as a simple wrapper, why do any more?</sub>
 
+
 ## Usage
 - help
     ```sh
@@ -16,8 +17,10 @@ VIMc is a very basic VimSript "interpreter" for running `.vim` files in the term
     vimc /foo/bar/baz.vim
     ```
 
+
 ## Dependencies
 - Vim
+
 
 ## Installation
 - Download binary
