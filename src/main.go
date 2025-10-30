@@ -38,7 +38,7 @@ func runFile(file string) (error, string) {
 		return err, string(out)
 	}
 
-	fmt.Printf(string(out))
+	fmt.Print(string(out))
 	return nil, ""
 }
 
