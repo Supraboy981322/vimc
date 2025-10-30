@@ -30,7 +30,7 @@ VIMc is a very basic VimSript "interpreter" for running `.vim` files in the term
 - Move binary to `$PATH`
     (may require `su`)
 
-    eg: `/usr/bin`
+    ie: `/usr/bin`
     ```sh
     mv vimc /usr/bin/vimc
     ```
