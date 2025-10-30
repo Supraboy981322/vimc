@@ -27,6 +27,13 @@ VIMc is a very basic VimSript "interpreter" for running `.vim` files in the term
     wcurl https://raw.githubusercontent.com/Supraboy981322/vimc/master/build/vimc
     ```
 
+- Make executable
+    (may require `su`)
+
+    ```sh
+    chmod a+x vimc
+    ```
+
 - Move binary to `$PATH`
     (may require `su`)
 

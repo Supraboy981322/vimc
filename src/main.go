@@ -7,7 +7,7 @@ import (
 )
 
 var (
-	args = os.Args
+	args = os.Args[1:]
 )
 
 func main() {
@@ -20,7 +20,6 @@ func main() {
 				file = args[i]
 		}
 	}
-
 	if file == "" {
 		eror("No input file", nil)
 	} else {
@@ -59,8 +58,8 @@ func help() {
 
 func eror(str string, err error) {
 	if err != nil {
-		str = fmt.Sprintf("err:  %v", err)
+		str = fmt.Sprintf("err:  %v\n", err)
 	}
-	os.Stderr.WriteString(str)
+	fmt.Fprintln(os.Stderr, str)
 	os.Exit(1)
 }
